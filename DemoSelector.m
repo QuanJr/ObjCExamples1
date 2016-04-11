@@ -28,7 +28,7 @@
 - (IBAction)onCrunchData:(id)sender {
    //[self performSelectorInBackground:@selector(doCrunchData) withObject:nil];
     
- // [self performSelectorOnMainThread:@selector(doCrunchData) withObject:nil waitUntilDone:true];
+    //[self performSelectorOnMainThread:@selector(doCrunchData) withObject:nil waitUntilDone:true];
     [self performSelectorOnMainThread:@selector(processData:) withObject:@{@"COD is ": @"COD",@"Qjr":@"who am I?"} waitUntilDone:true];
 }
 

@@ -16,10 +16,6 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-fb-hfK">
-                    <rect key="frame" x="6" y="111" width="588" height="31"/>
-                    <animations/>
-                </slider>
                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTK-lm-0Y0">
                     <rect key="frame" x="252" y="188" width="97" height="30"/>
                     <animations/>
@@ -32,6 +28,10 @@
                         <action selector="onCrunchData:" destination="-1" eventType="touchUpInside" id="FBY-vK-hjs"/>
                     </connections>
                 </button>
+                <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-fb-hfK">
+                    <rect key="frame" x="-2" y="97" width="588" height="31"/>
+                    <animations/>
+                </slider>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -42,6 +42,7 @@
                 <constraint firstItem="DTK-lm-0Y0" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wDa-jd-UnZ"/>
                 <constraint firstAttribute="trailing" secondItem="WY3-fb-hfK" secondAttribute="trailing" constant="8" id="zHV-oS-GOy"/>
             </constraints>
+            <point key="canvasLocation" x="301" y="301"/>
         </view>
     </objects>
 </document>
